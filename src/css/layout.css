@@ -1,0 +1,138 @@
+main {
+  margin-right: 20px;
+  width: 70%;
+}
+header {
+  background-color: #2f3930;
+  color: white;
+  padding: 30px;
+  padding-left: 200px;
+}
+h2 {
+  color: #4caf50;
+}
+li {
+  list-style: none;
+}
+nav .container {
+  display: flex;
+  padding: 0;
+}
+nav ul {
+  list-style: none;
+}
+header .header-part {
+  color: #d87735;
+}
+
+header nav ul li {
+  padding: 10px;
+}
+header nav ul li a {
+  background-color: #4caf50;
+  padding: 10px 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+header nav ul li a:hover {
+  background-color: #d87735;
+}
+div.slogan {
+  padding-left: 60px;
+  font-size: 16px;
+}
+ul.container {
+  margin: 0;
+}
+.container {
+  display: flex;
+  width: 70%;
+  margin: 30px auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+main img {
+  width: 100%;
+  height: 200px;
+}
+ul.container {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  background-color: #242b24;
+  margin: 0;
+  justify-content: space-around;
+}
+.more-info {
+  background-color: #2f3930;
+  color: white;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.more-info-container {
+  width: 100%;
+  background-color: #2f3930;
+}
+.more-info section {
+  flex: 1;
+}
+footer span {
+  color: white;
+  font-size: small;
+}
+footer nav ul li {
+  padding: 5px;
+  font-size: small;
+}
+footer nav ul li a {
+  color: white;
+
+  text-decoration: none;
+  text-align: right;
+}
+aside ul {
+  padding: 0;
+}
+aside ul li {
+  margin: 20px;
+}
+.image-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.more-info .image-gallery-section img {
+  width: 100%;
+  height: 60px;
+}
+.more-info .about-section img {
+  width: 100px;
+  height: 70px;
+  float: left;
+  padding: 5px;
+}
+.about-flex-container {
+  overflow: hidden;
+}
+.current-page {
+  background-color: #d87735;
+}
+.link-color-change {
+  color: #4caf50;
+}
+.lighter-text {
+  color: rgb(63, 62, 62);
+}
+main section .heading {
+  margin: 10px 0;
+}
